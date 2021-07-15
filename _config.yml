@@ -1,13 +1,13 @@
 # Site setings
-name: 'Horace'
-description: 'Horace is a simple Jekyll theme for writers and bloggers. Explore it yourself.'
+name: 'Rosalyn'
+description: "I'm a Software Engineer focused on developing Mobile Applications on the Android Platform."
 meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://horace.netlify.com/
 disqus: 'justgoodthemes'
-mailchimp_url: '//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117'
+mailchimp_url:
 cover_image: bc_1.jpg
 # Add your GA Tracking Id
 ga_analytics: 
@@ -15,35 +15,35 @@ ga_analytics:
 
 # Author
 author:
-  name: 'Daniel Bennett'
+  name: 'Rosalyn Blanco'
   image: 'authorimage.jpg'
-  greetings: 'Hi there!'
-  description: "My name is Daniel Bennett. I'm a freelance front-end developer, author and speaker based in Austin, TX. It’s nice to meet you."
-  bio: 'Daniel is a designer, photographer, speaker, author of a couple of books about typography and the founder of photo magazine Curious.'
+  greetings: 'Hola!'
+  description: "My name is Rosalyn Blanco, and I'm an Android Developer based in Miami,FL. Welcome!"
+  bio: "I'm a Software Engineer focused on developing Mobile Applications on the Android Platform."
 
 # Contact form setings
-email: youremail@email.com
-contact_page_description: "Horace theme comes with a contact form built-in. You can use this form with Formspree service and get up to 50 submissions for free. Also, you can easily switch to another service if you want."
+email: rosalyn.blanco@gmail.com
+contact_page_description: "Do you have any project on mind, or any question/suggestion? Feel free to reach out. If you prefer, at the bottom, you can find my social links to get in touch that way."
 thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
 
 # Social links
-twitter: 'username'
-facebook: 'username'
-github: 'username'
-codepen: 'username'
-dribbble: 'username'
-medium: '@username'
-instagram: 'username'
-pinterest: 'username'
-linkedin: 'username'
-producthunt: '@username'
+github: 'rosebm'
+linkedin: 'rosalynblanco'
+twitter:
+facebook:
+codepen:
+dribbble:
+medium:
+instagram:
+pinterest:
+producthunt: 
 
 # Navigation
 navigation:
   - text: About
     url: /about/
-  - text: Style Guide
-    url: /style-guide/
+  - text: Projects
+    url: /projects/
   - text: Contact Me
     url: /contact/
 
@@ -68,3 +68,4 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+

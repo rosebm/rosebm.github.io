@@ -1,15 +1,17 @@
 ---
 layout: page
 title: About
-featured_image: /assets/images/pages/about.jpg
+featured_image:
 ---
 
-Daniel Bennett is a senior developer from Vilnius, Lithuania. After graduating from The College with a degree in **Computer Science**, he worked for three small web shops where he honed his development skills and love for JavaScript.
 
-His work has been recognized by Communication Arts, IBM, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. **Net** magazine named him a person to watch in 2018.
+I'm a Software Engineer specialized on Android Development from Caracas, Venezuela.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+Who does not think that mobiles are making easier our daily life? Just by thinking that through some code and deploy you are able to solve practical problems is impressive, that by delivering a product you can improve people’s life, or entertain them… is unbelievable, especially when that passion is your career.
 
-As a hobby, Daniel authors the most influential JavaScript blog in Lithuania with over 100,000 page views a month. He lives in Vilnius with his beautiful wife, two boys and one girl.
+If I'm not coding for mobile apps, probably I'm filling my curiosity on another areas such as AR and Games. When I'm not in front of my laptop, I'm usually working out, playing tennis or learning French.
 
-*Thank You for reading!*
+
+I'm always experimenting, always learning.
+
+***Thank You for reading!***
