@@ -1,4 +1,4 @@
-# Horace Jekyll Theme v1.2.0
+`# Horace Jekyll Theme v1.2.0
 
 [Theme Live Demo](https://horace.netlify.com/)
 

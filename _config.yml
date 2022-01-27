@@ -41,11 +41,11 @@ producthunt:
 # Navigation
 navigation:
   - text: About
-    url: /about/
+    url: /about
   - text: Projects
-    url: /projects/
+    url: /projects
   - text: Contact Me
-    url: /contact/
+    url: /contact
 
 # Required Plugins
 plugins_dir:
