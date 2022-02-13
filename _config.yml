@@ -18,7 +18,7 @@ author:
   name: 'Rosalyn Blanco'
   image: 'authorimage.jpg'
   greetings: 'Hola!'
-  description: "My name is Rosalyn Blanco, and I'm an Android Developer based in Miami,FL. Welcome!"
+  description: "My name is Rosalyn Blanco, and I'm a Software Developer based in Miami,FL. Welcome!"
   bio: "I'm a Software Engineer focused on developing Mobile Applications on the Android Platform."
 
 # Contact form setings
@@ -41,11 +41,11 @@ producthunt:
 # Navigation
 navigation:
   - text: About
-    url: /about/
+    url: /about
   - text: Projects
-    url: /projects/
+    url: /projects
   - text: Contact Me
-    url: /contact/
+    url: /contact
 
 # Required Plugins
 plugins_dir:
