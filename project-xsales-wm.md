@@ -4,24 +4,27 @@ title: XSales Mobility
 featured_image: 
 ---
 
-![XSales](/assets/images/pages/test-xsales.png)
+<p align="center">
+
+  <img src="/assets/images/pages/xsales/ipaq-front-login.jpg">
+
+</p>
+
+
+Company: [XSales Mobility](https://xsalesmobility.com/)
 
 B2B Application designed to provide SaaS services, the app supported 3 modes:
 - Pre-sales: generating an order and a receipt
 - Delivery: once the client is visited, and the order delivered, the stock is reduced after a data synchronization
 - Autosales: once visiting a client, the order was made and automatically synced with the server in order to update the stock available and generate the receipt.
 
-
-
-The app running under Windows Mobile (versions 5 and 6) was developed using C# and SQLite, the challenge here: the limit size for apps on Windows Mobile up to 25Mb, so the app had to be divided into 2 executables.
+This version for Windows Mobile (versions 5 and 6) was developed on Visual Studio.Net using C# and SQLite; 2 executable files were needed due to size limitations: Windows Mobile allowed up to 25Mb per executable.
 
 The app is currently present in the US, Latin America and Caribbean.
 
+<p align="center">
 
-![XSales2](/assets/images/pages/xsales-anthony.png)
+  <img src="/assets/images/pages/xsales/xsales-wm-side1.jpg">
 
-![XSales3](/assets/images/pages/ipaq-front-3.jpg)
-
-
-![XSales4](/assets/images/pages/XSales-WM-front.png)
+</p>
 

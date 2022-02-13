@@ -10,15 +10,15 @@ Here you will find some apps I have worked on, some have survived the ravages of
 
 ----------------
 
-[![RedZone Map](/assets/images/pages/Redzone.png)](/project-redzone "Redzone Map")
+[![RedZone Map](/assets/images/pages/redzone/Redzone.png)](/project-redzone "Redzone Map")
 
 ----------------
 
 
-[![XSales Android](/assets/images/pages/XSales-Android.png)](/project-xsales "XSales Android") 
+[![XSales Android](/assets/images/pages/XSales-Android.png)](/project-xsales-android "XSales Android") 
 
 ----------------
 
-[![XSales WM](/assets/images/pages/XSales-Windows-Mobile.png)](/project-xsales "XSales Windows Mobile")
+[![XSales WM](/assets/images/pages/XSales-Windows-Mobile.png)](/project-xsales-wm "XSales Windows Mobile")
 
 

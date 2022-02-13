@@ -10,10 +10,10 @@ Basic project that helps to connect, via bluetooth, to a [Zebra's](https://www.z
 
 <!--more-->
 
-When I was brand new on the Android world, I got my first work challenge: to print the receipts with the Zebra's printers, and emit a text and an image. These are compact and easy to carry, ideal for receipts, barcodes, labels, etc.
+When I was brand new on the Android world, I got my first work challenge: to print the receipts with the Zebra's printers; as with any receipt, I needed to print the company's logo and all products bought with their prices and total. These printers are compact and easy to carry, ideal for receipts, barcodes, labels, etc.
 
-This is a library I created long time ago, when I just started learning Android. It took time to understand Zebra manuals, reason I decided to publish it in case anyone else was struggling just like me. 
+This is a library I created long time ago, when I just started learning Android. It took me time to understand the Zebra manuals, therefore, I decided to publish it in case anyone else was struggling just like me. 
 
-The project consists of a library and a simple app that consumes it to print with CPCL language, and it was tested on a Zebra RW420. Currently is not maintained because I don't have access anymore to the Zebra printers; nevertheless, I hope it helps you to create a base. 
+The project consists of a library and a simple app that consumes it by printing with CPCL language, and it was tested on a Zebra RW420. Currently is not maintained because I don't have access anymore to the Zebra printers; nevertheless, I hope it helps you to create a base.
 
 You can find the code here [GitHub](https://github.com/rosebm/ZebraPrintingAndroid)
