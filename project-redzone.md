@@ -20,11 +20,3 @@ You can have an overview of the old website in the Web Archive:
 - [2018 Archive](https://web.archive.org/web/20180321080145/https://www.redzonemap.com/)
 - [2019 Archive](https://web.archive.org/web/20190530125635/https://www.redzonemap.com/)
 
-![](/assets/images/pages/redzone/redzone-video-1.mp4)
-
-<p align="center">
-<img src="/assets/images/pages/redzone/Samsung-Redzone-5.png" width="600" />
-</p>
-
-
-![](/assets/images/pages/redzone/redzone-video-1.mp4)
