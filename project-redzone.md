@@ -23,7 +23,7 @@ You can have an overview of the old website in the Web Archive:
 ![](/assets/images/pages/redzone/redzone-video-1.mp4)
 
 <p align="center">
-<img src="/assets/images/pages/redzone/navigation.JPG" width="600" />
+<img src="/assets/images/pages/redzone/Samsung-Redzone-5.png" width="600" />
 </p>
 
 
