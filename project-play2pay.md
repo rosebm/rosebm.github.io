@@ -14,9 +14,5 @@ Supporting Android devices, is developed on Android Studio with Java (earlier ve
 The app is currently available in US, Mexico, UK, Indonesia and Brazil.
 
 
-<p align="center">
-
-  <img src="/assets/images/pages/play2pay/AppShowCase.png" width=200>
-  <small>Images credit: <a href="https://meltedcolor.com">Anthony García</a></small>
-
-</p>
+![phone](/assets/images/pages/play2pay/AppShowCase.png){: width="500" }
+*Images credit: Anthony García*
