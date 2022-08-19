@@ -24,7 +24,7 @@ The app was developed on Android Studio using Java and SQLite, only available th
 
 <p align="center">
 
-  <img src="/assets/images/pages/xsales/xsales-anthony.png">
+  <img src="/assets/images/pages/xsales/samsung-galaxy-s6-vs-s8-ros-test.png">
   <small>Images credit: <a href="https://meltedcolor.com">Anthony García</a></small>
 
 
