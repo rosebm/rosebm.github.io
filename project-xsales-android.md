@@ -21,12 +21,18 @@ B2B Application designed to provide SaaS services, the app supported 3 modes:
 
 The app was developed on Android Studio using Java and SQLite, only available through a private store called [XSales Store](https://xsalesstore.com/). Is currently present in the US, Latin America and Caribbean.
 
+
 <p align="center">
 
   <img src="/assets/images/pages/xsales/xsales-anthony.png">
   <small>Images credit: <a href="https://meltedcolor.com">Anthony García</a></small>
 
+
+
+  <img src="/assets/images/pages/xsales/samsung-galaxy-s6-vs-s8-ros-test.png">
+
 </p>
+
 
 
 
