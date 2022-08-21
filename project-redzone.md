@@ -20,3 +20,9 @@ You can have an overview of the old website in the Web Archive:
 - [2018 Archive](https://web.archive.org/web/20180321080145/https://www.redzonemap.com/)
 - [2019 Archive](https://web.archive.org/web/20190530125635/https://www.redzonemap.com/)
 
+<p align="center">
+
+  <img src="/assets/images/pages/redzone/redzone-3-screens.png">
+  <small>Images credit: <a href="https://meltedcolor.com">Anthony García</a></small>
+
+</p>

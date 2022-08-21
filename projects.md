@@ -6,7 +6,7 @@ featured_image:
 
 Here you will find some apps I have worked on, some have survived the ravages of time, some have not... but I enjoyed them! <br />
 
-[![Play2Pay](/assets/images/pages/Play2Pay.png)](/project-play2pay "Play2Pay") 
+[![Play2Pay](/assets/images/pages/play2pay/Play2Pay-center-complete.png)](/project-play2pay "Play2Pay") 
 
 ----------------
 
@@ -15,10 +15,10 @@ Here you will find some apps I have worked on, some have survived the ravages of
 ----------------
 
 
-[![XSales Android](/assets/images/pages/XSales-Android.png)](/project-xsales-android "XSales Android") 
+[![XSales Android](/assets/images/pages/xsales/xsales-android-center.png)](/project-xsales-android "XSales Android") 
 
 ----------------
 
-[![XSales WM](/assets/images/pages/XSales-Windows-Mobile.png)](/project-xsales-wm "XSales Windows Mobile")
+[![XSales WM](/assets/images/pages/xsales/xsales-wm-center.png)](/project-xsales-wm "XSales Windows Mobile")
 
 
