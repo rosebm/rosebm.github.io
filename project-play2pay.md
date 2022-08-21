@@ -16,7 +16,8 @@ The app is currently available in US, Mexico, UK, Indonesia and Brazil.
 
 <p align="center">
 
-  <img src="/assets/images/pages/play2pay/AppShowCase.png">
-  <small>Images credit: <a href="https://meltedcolor.com">Anthony García</a></small>
-
+  <img src="/assets/images/pages/play2pay/play2pay-3-screens-transparent.png"  width="700" >
+</p>
+<p align="center">
+<small>Images credit: <a href="https://meltedcolor.com">Anthony García</a></small>
 </p>
