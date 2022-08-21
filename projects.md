@@ -4,7 +4,7 @@ title: Projects
 featured_image:
 ---
 
-Here you will find some apps I have worked on, some have survived the ravages of time, some have not... but I enjoyed them! <br />
+Here you will find some apps I have worked on, some have survived the ravages of time, some have not... from all of them I've learned and I love that! <br />
 
 [![Play2Pay](/assets/images/pages/play2pay/Play2Pay-center-complete.png)](/project-play2pay "Play2Pay") 
 
@@ -14,11 +14,9 @@ Here you will find some apps I have worked on, some have survived the ravages of
 
 ----------------
 
-
 [![XSales Android](/assets/images/pages/xsales/xsales-android-center.png)](/project-xsales-android "XSales Android") 
 
 ----------------
 
 [![XSales WM](/assets/images/pages/xsales/xsales-wm-center.png)](/project-xsales-wm "XSales Windows Mobile")
-
 
