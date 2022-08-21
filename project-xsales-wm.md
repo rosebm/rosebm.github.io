@@ -6,7 +6,7 @@ featured_image:
 
 <p align="center">
 
-  <img src="/assets/images/pages/xsales/ipaq-front-login.jpg">
+  <img src="/assets/images/pages/xsales/xsales-wm-side.png">
 
 </p>
 
@@ -24,7 +24,7 @@ The app is currently present in the US, Latin America and Caribbean.
 
 <p align="center">
 
-  <img src="/assets/images/pages/xsales/xsales-wm-side1.jpg">
+  <img src="/assets/images/pages/xsales/xsales-wm-3-screens.png">
 
 </p>
 
