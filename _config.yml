@@ -62,10 +62,15 @@ paginate_path: /page:num/
 permalink: /:title
 
 # Other
+# Syntax Highlighting
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
 
 # Sass
 sass:
   sass_dir: _sass
   style: compressed
+
 
