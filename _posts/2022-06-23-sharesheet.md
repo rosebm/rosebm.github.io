@@ -2,11 +2,13 @@
 layout: post
 title: 'Sending data to other apps with Sharesheet'
 tags: [Android, Kotlin]
-featured_image_thumbnail: assets/images/posts/2022/sharesheet-pigeon-tumbnail.jpg
-featured_image: assets/images/posts/2022/illustration-of-a-carrier-pigeon-with-a-bag-that-has-an-sd-card-shape-on-it.jpg
+featured_image_thumbnail: assets/images/posts/2022/sharesheet_pigeon_thumbnail.jpg
+featured_image: assets/images/posts/2022/sharesheet_pigeon.jpg
 ---
 
 A simple way to send a link to another app!
+
+<!--more-->
 
 A few days ago I needed to be able to send a link to an external app, and Intents are perfect for such task, Android through the Sharesheet allows you to do so (unless you want to implement a custom one).
 
