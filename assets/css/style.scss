@@ -303,7 +303,7 @@
 .post-feed .post {
   margin-left: auto;
   margin-right: auto;
-  max-width: 20px;
+  max-width: 720px;
 }
 
 .post-feed .post-title {
@@ -960,10 +960,10 @@
   .post-full .post-thumbnail,
   .post-featured .post-thumbnail,
   .post-content img[src$='#wide'] {
-    margin-left: -0px;
+    margin-left: -180px;
     margin-right: -180px;
     max-width: none;
-    width: 580px;
+    width: 1080px;
   }
 
   .outer {

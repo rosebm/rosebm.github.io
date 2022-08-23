@@ -2,8 +2,8 @@
 layout: post
 title: 'Printing Text and Images on Zebra.'
 tags: [Android, Zebra, Java]
-featured_image_thumbnail: assets/images/posts/2021/zebra-printer-2_thumbnail2.jpg
-featured_image: assets/images/posts/2021/zebra-printer-2.png
+featured_image_thumbnail: assets/images/posts/2021/printer-android_thumbnail.png
+featured_image: assets/images/posts/2021/printer-android.png
 featured: true
 hidden: true
 ---
