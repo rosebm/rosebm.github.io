@@ -6,17 +6,17 @@ featured_image:
 
 Here you will find some apps I have worked on, some have survived the ravages of time, some have not... from all of them I've learned and I love that! <br />
 
-[![Play2Pay](/assets/images/pages/play2pay/Play2Pay-center-complete.png)](/project-play2pay "Play2Pay") 
+[![Play2Pay](/assets/images/pages/play2pay/play2Pay-project.png)](/project-play2pay "Play2Pay") 
 
 ----------------
 
-[![RedZone Map](/assets/images/pages/redzone/Redzone.png)](/project-redzone "Redzone Map")
+[![RedZone Map](/assets/images/pages/redzone/redzone-project.png)](/project-redzone "Redzone Map")
 
 ----------------
 
-[![XSales Android](/assets/images/pages/xsales/xsales-android-center.png)](/project-xsales-android "XSales Android") 
+[![XSales Android](/assets/images/pages/xsales/xsales-android-project.png)](/project-xsales-android "XSales Android") 
 
 ----------------
 
-[![XSales WM](/assets/images/pages/xsales/xsales-wm-center.png)](/project-xsales-wm "XSales Windows Mobile")
+[![XSales WM](/assets/images/pages/xsales/xsales-wm-project.png)](/project-xsales-wm "XSales Windows Mobile")
 
