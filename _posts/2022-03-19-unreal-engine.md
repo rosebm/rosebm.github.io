@@ -74,7 +74,7 @@ Deploying the project on my device was straightforward (connect the device to th
 
 Why this occurs? Because the option "Package game data inside .apk?" was unchecked, the project built into different files (.apk, .command, .obb), all necessary for the project to run. You can check the option, and the apk will be generated with all those files contained within. 
 
-I must admit my eyes were wide open when I noticed that my basic project's size was around 700MB!, on Android you are always fighting to keep your app as light as possible.
+I must admit being shocked when I noticed that my basic project's size was around 700MB!, on Android you are always fighting to keep your app as light as possible.
 
 So what's the way to install the apk? Through terminal, by running the .command file while the device is connected to the laptop. 
 
