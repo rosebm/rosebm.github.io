@@ -82,7 +82,7 @@ So what's the way to install the apk? Through terminal, by running the .command 
  $ Install_[ProjectName]_Development_armv7-es3.command
 {% endhighlight %}
 
-That's it! Was overwhelming getting all the information needed to start and understand UE; nevertheless, it has been fun, something I'll definitely will continue digging into. 
+That's it! Was overwhelming getting all the information needed to start and understand UE; nevertheless, it has been fun, something I'll definitely continue digging into. 
 
 
 
