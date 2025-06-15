@@ -960,10 +960,10 @@
   .post-full .post-thumbnail,
   .post-featured .post-thumbnail,
   .post-content img[src$='#wide'] {
-    margin-left: -180px;
-    margin-right: -180px;
+    margin-left: -100px;
+    margin-right: -100px;
     max-width: none;
-    width: 1080px;
+    width: 800px;
   }
 
   .outer {

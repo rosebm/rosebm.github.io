@@ -6,7 +6,11 @@ featured_image:
 
 Here you will find some apps I have worked on, some have survived the ravages of time, some have not... from all of them I've learned and I love that! <br />
 
-[![Play2Pay](/assets/images/pages/play2pay/play2Pay-project.png)](/project-play2pay "Play2Pay") 
+[![Play2Pay iOS](/assets/images/pages/play2pay-ios/pla2pay_project_ios.png)](/project-play2pay-ios "Play2Pay iOS") 
+
+----------------
+
+[![Play2Pay Android](/assets/images/pages/play2pay/play2Pay-project.png)](/project-play2pay "Play2Pay Android") 
 
 ----------------
 
