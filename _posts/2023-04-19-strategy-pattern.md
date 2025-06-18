@@ -2,8 +2,8 @@
 layout: post
 title: 'Strategy Pattern'
 tags: [Android, Kotlin]
-featured_image_thumbnail: assets/images/posts/2023/strategy_pattern/strategy_pattern_3_roads.png
-featured_image: assets/images/posts/2023/strategy_pattern/strategy_pattern_3_roads.png
+featured_image_thumbnail: assets/images/posts/2023/strategy_pattern/strategy_pattern_3_roads.jpg
+featured_image: assets/images/posts/2023/strategy_pattern/strategy_pattern_3_roads.jpg
 ---
 
 Simplifying Interchangeable Behaviors in Your Code.

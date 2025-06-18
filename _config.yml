@@ -1,6 +1,6 @@
-# Site setings
+# Site settings
 name: 'Rosalyn'
-description: "I'm a Software Engineer focused on developing Mobile Applications on the Android Platform."
+description: "Senior Mobile Developer | Android + Flutter | Native & Cross-Platform Specialist"
 meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -19,7 +19,7 @@ author:
   image: 'authorimage.jpg'
   greetings: 'Hola!'
   description: "My name is Rosalyn Blanco, and I'm a Software Engineer based in Miami,FL. Welcome!"
-  bio: "Software Engineer focused on developing Mobile Applications on the Android Platform."
+  bio: "Software Engineer with experience in Android and Flutter Platforms."
 
 # Contact form setings
 email: f/mrgdbbaz
