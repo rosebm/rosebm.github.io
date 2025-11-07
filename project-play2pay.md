@@ -13,13 +13,13 @@ The app supports Android and iOS devices: the Android version is developed on An
 
 The app at first was available in the US (Cricket), Mexico (Unefon), UK (Lyca), Indonesia (Indosat) and Brazil (Tim).
 
-Currently available in the US for Cricket and Metro users
+Currently available in the US for Cricket and Metro by T-Mobile users
 
 ![3 Devices](/assets/images/pages/play2pay/play2pay-3-screens-transparent.png)
 <small>Images credit [Anthony García](https://meltedcolor.com)</small>
 
 
-[Play Store](https://play.google.com/store/apps/details?id=com.adfone.aditup&hl=en_US&pli=1)
+[![Google Play](assets/images/pages/play2pay/google_play_logo.png){: width="20%"}](https://play.google.com/store/apps/details?id=com.adfone.aditup&hl=en_US&pli=1)
 
-[App Store](https://apps.apple.com/us/app/ad-it-up-save-on-your-bills/id6737984094)
+[![App Store](assets/images/pages/play2pay/app_store_logo.png){: width="20%"}](https://apps.apple.com/us/app/ad-it-up-save-on-your-bills/id6737984094)
 

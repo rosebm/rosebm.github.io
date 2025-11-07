@@ -4,13 +4,10 @@ title: Projects
 featured_image:
 ---
 
-Here you will find some apps I have worked on, some have survived the ravages of time, some have not... from all of them I've learned and I love that! <br />
+These are some of the apps I’ve worked on — a few still alive and thriving, others now just memories in code. Each project left its mark on how I build, think, and solve problems today. <br />
 
-[![Play2Pay iOS](/assets/images/pages/play2pay-ios/pla2pay_project_ios.png)](/project-play2pay-ios "Play2Pay iOS") 
 
-----------------
-
-[![Play2Pay Android](/assets/images/pages/play2pay/play2Pay-project.png)](/project-play2pay "Play2Pay Android") 
+[![Play2Pay](/assets/images/pages/play2pay/play2Pay-project.png)](/project-play2pay "Play2Pay") 
 
 ----------------
 
@@ -18,9 +15,5 @@ Here you will find some apps I have worked on, some have survived the ravages of
 
 ----------------
 
-[![XSales Android](/assets/images/pages/xsales/xsales-android-project.png)](/project-xsales-android "XSales Android") 
-
-----------------
-
-[![XSales WM](/assets/images/pages/xsales/xsales-wm-project.png)](/project-xsales-wm "XSales Windows Mobile")
+[![XSales WM](/assets/images/pages/xsales/xsales-wm-project.png)](/project-xsales-wm "XSales")
 
