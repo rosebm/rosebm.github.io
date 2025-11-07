@@ -2,7 +2,7 @@
 layout: post
 title: 'Communicate Dart with Swift'
 tags: [Flutter, Dart, Swift]
-featured_image_thumbnail: assets/images/posts/2025/platform_channels/platform_channel_thumbnail.jpg
+featured_image_thumbnail: assets/images/posts/2025/platform_channels/platform_channel.jpg
 featured_image: assets/images/posts/2025/platform_channels/platform_channel.jpg
 ---
 
