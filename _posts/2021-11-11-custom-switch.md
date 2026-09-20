@@ -1,12 +1,12 @@
 ---
 layout: post
 title: 'Custom Switch'
+description: Bored of using the plain pre-defined switch design? Let's see how we can change it.
+Date: 2021-11-11 15:01:35 +0300
+image: images/posts/2021/custom_switch/switch.jpg
 tags: [Android, Kotlin, Xml]
-featured_image_thumbnail: assets/images/posts/2021/custom_switch/switch_thumbnail.jpg
-featured_image: assets/images/posts/2021/custom_switch/switch.jpg
+toc: true	
 ---
-
-Bored of using the plain pre-defined switch design? Let's see how we can change it.
 
 <!--more-->
 
@@ -17,7 +17,7 @@ The Switch or Toggle is a widget that defines the state of a button between 2 va
 
 ### Anatomy of the switch:
 
-![Switch anatomy](assets/images/posts/2021/custom_switch/anatomy.png)
+![Switch anatomy](/images/posts/2021/custom_switch/anatomy.png)
 
 But what if you don't want the style that comes by default? What if you want to customize it? Well, let's see how we can approach it:
 
@@ -180,7 +180,7 @@ Now that we have created our xml files, we need to reference them in the switch 
 
 It should look like this
 
-![switch_animated](assets/images/posts/2021/custom_switch/switch.gif)
+![switch_animated](/images/posts/2021/custom_switch/switch.gif)
 
 Now you're ready to customize it! Thanks for reading.
 

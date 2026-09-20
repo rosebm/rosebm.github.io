@@ -1,14 +1,15 @@
 ---
 layout: post
 title: 'Printing Text and Images on Zebra.'
+description: Struggling to understand CPCL and print receipts on Android? This basic project helps to print a text and an image with Zebra
+date: 2021-08-09 15:01:35 +0300
+image: '/images/posts/2021/printer-android.png'
+featured_image_thumbnail: images/posts/2021/printer-android_thumbnail.png
 tags: [Android, Zebra, Java]
-featured_image_thumbnail: assets/images/posts/2021/printer-android_thumbnail.png
-featured_image: assets/images/posts/2021/printer-android.png
-featured: true
-hidden: true
+toc: true
 ---
 
-Struggling to understand CPCL and print receipts on Android?. This basic project helps to connect, via bluetooth, to a [Zebra's](https://www.zebra.com/us/en/products/printers.html) printer and emit a text and an image. 
+This basic project helps to connect, via bluetooth, to a [Zebra's](https://www.zebra.com/us/en/products/printers.html) printer and emit a text and an image. 
 
 <!--more-->
 
@@ -20,6 +21,6 @@ The project consists of a library and a simple app that consumes it by printing 
 
 At the end I was able to print a more formatted receipt, like this:
 
-![receipt](assets/images/posts/2021/zebra-printer-pdf.png "Receipt")
+![receipt](/images/posts/2021/zebra-printer-pdf.png "Receipt")
 
 You can find the code here [GitHub](https://github.com/rosebm/ZebraPrintingAndroid)

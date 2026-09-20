@@ -1,0 +1,72 @@
+/* Buttons */
+.button {
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-decoration: none;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  color: var(--button-color);
+  background: var(--button-background-color);
+  transition: $global-transition;
+  will-change: transform;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--button-color-hover);
+    background: var(--button-background-hover);
+
+    &.button--loading {
+      &::after {
+        border: 2px solid var(--button-color-hover);
+        border-top-color: transparent;
+        border-right-color: transparent;
+      }
+    }
+  }
+
+  &--small {
+    padding: 8px 12px;
+  }
+
+  &--medium {
+    padding: 12px 20px;
+  }
+
+  &--big {
+    width: 100%;
+    justify-content: center;
+  }
+
+  &--accent {
+    color: var(--button-color-hover);
+    background: var(--primary-color);
+
+    &:hover {
+      opacity: .9;
+    }
+  }
+
+  &--loading {
+    &::after {
+      content: "";
+      display: block;
+      height: 16px;
+      width: 16px;
+      margin-left: 8px;
+      border: 2px solid var(--white);
+      border-radius: 50%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      -webkit-animation: spin var(--global-transition) infinite linear;
+      animation: spin .5s infinite linear;
+    }
+  }
+}

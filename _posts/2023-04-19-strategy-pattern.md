@@ -1,12 +1,13 @@
 ---
 layout: post
 title: 'Strategy Pattern'
+description: Simplifying Interchangeable Behaviors in Your Code.
+date: 2023-04-19 15:01:35 +0300
 tags: [Android, Kotlin]
 featured_image_thumbnail: assets/images/posts/2023/strategy_pattern/strategy_pattern_3_roads.jpg
-featured_image: assets/images/posts/2023/strategy_pattern/strategy_pattern_3_roads.jpg
+image: /images/posts/2023/strategy_pattern/strategy_pattern_3_roads.jpg
+toc: true
 ---
-
-Simplifying Interchangeable Behaviors in Your Code.
 
 <!--more-->
 
@@ -20,7 +21,7 @@ Let's say your app stores data locally using a database like SQLite  but later y
 ### So, what is exactly the Strategy Pattern?
 <br />
 
-![Switch anatomy](assets/images/posts/2023/strategy_pattern/strategy_pattern_diagram.png)
+![Switch anatomy](/images/posts/2023/strategy_pattern/strategy_pattern_diagram.png)
 
 The definition says that, Strategy Pattern is a behavioral design pattern that defines a family of algorithms, encapsulates each one as a separate class, and makes them interchangeable. In other words, the Strategy Pattern lets you switch between different behaviors or algorithms at runtime by swapping out the implementation behind the scenes, without needing to modify the main code.
 

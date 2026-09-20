@@ -1,76 +1,55 @@
-# Site settings
-name: 'Rosalyn'
-description: "Senior Mobile Developer | Android + Flutter | Native & Cross-Platform Specialist"
-meta_description: 'Jekyll template, minimal style, perfect for bloggers.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
-baseurl: 
-production_url: https://horace.netlify.com/
-disqus: 'justgoodthemes'
-mailchimp_url:
-cover_image: bc_1.jpg
-# Add your GA Tracking Id
-ga_analytics: 
+#-------------------------------
+# General Site Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rosalynblanco.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
-# Author
-author:
-  name: 'Rosalyn Blanco'
-  image: 'authorimage.jpg'
-  greetings: 'Hola!'
-  description: "My name is Rosalyn Blanco, and I'm a Software Engineer based in Miami,FL. Welcome!"
-  bio: "Software Engineer with experience in Android and Flutter Platforms."
-
-# Contact form setings
-email: f/mrgdbbaz
-contact_page_description: "Do you have any project on mind, or any question/suggestion? Feel free to reach out. If you prefer, at the bottom, you can find my social links to get in touch that way."
-thankyou_page_description: "Your message has been successfully sent. We will contact you very soon!"
-
-# Social links
-github: 'rosebm'
-linkedin: 'rosalynblanco'
-twitter:
-facebook:
-codepen:
-dribbble:
-medium:
-instagram:
-pinterest:
-producthunt: 
-
-# Navigation
-navigation:
-  - text: About
-    url: /about
-  - text: Projects
-    url: /projects
-  - text: Contact Me
-    url: /contact
-
-# Required Plugins
-plugins_dir:
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
   - jekyll-paginate
-  - jekyll-tagsgenerator
-  - jekyll-seo-tag
   - jekyll-sitemap
 
-# Pagination
-paginate: 5
-paginate_path: /page:num/
+paginate: 4
+paginate_path: "/page/:num"
 
-# Permalinks
-permalink: /:title
+#-------------------------------
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /posts/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
 
-# Other
-# Syntax Highlighting
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
+# Pages Path
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
-# Sass
+
 sass:
-  sass_dir: _sass
   style: compressed
-
-

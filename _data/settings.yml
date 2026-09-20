@@ -1,0 +1,120 @@
+#-------------------------------
+# Site Settings
+title: Rosalyn
+description: "Senior Mobile Developer | Android + Flutter | Native & Cross-Platform Specialist"
+logo: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
+logo_dark: '/images/logo-dark.svg'
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'Blog'
+      url: '/posts/'
+    - title: 'Resources'
+      submenu:
+      - url: '/about/'
+        title: 'About'
+      - url: '/videos/'
+        title: 'Videos'
+      - url: '/archive/'
+        title: 'Archive'
+      - url: '/elements/'
+        title: 'Elements'
+      - url: '/latest/'
+        title: 'Latest'
+      - url: '/services/'
+        title: 'Services'
+      - url: '/faq/'
+        title: 'FAQ'
+
+# Call to action button
+cta_button:
+  enable: true
+  cta_button_link: '/contact/'
+  cta_button_text: Contact
+
+
+# Home Cover Image
+home_cover_image: /images/bg.png
+
+
+#-------------------------------
+# Author Settings
+author:
+  author_name: Rosalyn Blanco
+  author_avatar: /images/authorimage.jpg
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero_avatar: /images/authorimage.jpg
+  hero_title: Rosalyn Blanco
+  hero_description: Hey friends 👋 I’m Rosalyn, Senior Software Engineer at <a href="https://play2pay.com/">Play2Pay</a>. I’ve previously worked with teams at <a href="#">Redzone Map</a> and <a href="https://xsalesmobility.com/">XSales</a>. I focus on turning ideas into polished, high-quality apps that create meaningful experiences for users.
+
+#-------------------------------
+# Social Settings
+social:
+- {icon: "fa-brands fa-github", name: "GitHub", link: "https://github.com/rosebm"}
+- {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://linkedin.com/in/rosalynblanco"}
+
+# Example of adding a new link to the hero and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Projects Section Settings
+projects:
+  enable: true
+  projects_title: Recent Projects
+
+
+#-------------------------------
+# Section Blog Settings
+blog:
+  enable: true
+  blog_title: Writings
+
+
+#-------------------------------
+# Newsletter Settings
+mailchimp:
+  enable: true
+  mailchimp_image: '/images/20.jpg'
+  mailchimp_title: Stay Inspired Weekly
+  mailchimp_description: Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox.
+  mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  mailchimp_input_text: Your email address
+  mailchimp_button_text: Subscribe
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  form_id: your@email.com # Add your form_id
+  button_text: Send Message
+
+# NOTE
+# Do you have any project on mind, or any question/suggestion? Feel free to reach out. If you prefer, at the bottom, you can find my social links to get in touch that way..
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: true
+  disqus_identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+  disqus_title: What are your thoughts?
+  disqus_button_text: Show Comments
+
+
+#-------------------------------
+# Google Analytics
+google_analytics: # Add your GA Tracking Id

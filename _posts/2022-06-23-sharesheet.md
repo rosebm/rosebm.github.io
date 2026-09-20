@@ -1,12 +1,13 @@
 ---
 layout: post
 title: 'Sending data to other apps with Sharesheet'
+description: A simple way to send a link to another app!
+date: 2022-06-23 15:01:35 +0300
 tags: [Android, Kotlin]
 featured_image_thumbnail: assets/images/posts/2022/sharesheet_pigeon_thumbnail.jpg
-featured_image: assets/images/posts/2022/sharesheet_pigeon.jpg
+image: /images/posts/2022/sharesheet_pigeon.jpg
+toc: true
 ---
-
-A simple way to send a link to another app!
 
 <!--more-->
 

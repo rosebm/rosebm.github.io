@@ -1,0 +1,31 @@
+<!-- begin section faq -->
+<section class="section section-faq">
+  <div class="container">
+    <div class="row">
+      <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+
+        <div class="section__head">
+          {% if site.data.faq.faq_title %}
+          <h2 class="section__title">{{ site.data.faq.faq_title }}</h2>
+          {% endif %}
+        </div>
+
+        <div class="faq__inner">
+          {% for faq_item in site.data.faq.faq_items %}
+          <div class="faq__item" tabindex="0" data-name="closed">
+            <div class="faq__item__head">
+              <h3 class="faq__title">{{ faq_item.title }}</h3>
+              <i class="faq__item__arrow fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="faq__description">
+              <p>{{ faq_item.description }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section faq -->

@@ -1,12 +1,13 @@
 ---
 layout: post
 title: 'From Kotlin to Flutter: My Journey Building an iOS App in 2 Months'
+description: New tech, tight deadline—challenge accepted!.
+date: 2025-01-30 15:01:35 +0300
 tags: [Flutter, iOS, Dart]
 featured_image_thumbnail: assets/images/posts/2025/kotlin_to_flutter/android-iphone.png
-featured_image: assets/images/posts/2025/kotlin_to_flutter/android-iphone.png
+image: /images/posts/2025/kotlin_to_flutter/android-iphone.png
+toc: true
 ---
-
-New tech, tight deadline—challenge accepted!.
 
 <!--more-->
 

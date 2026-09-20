@@ -1,12 +1,13 @@
 ---
 layout: post
 title: 'My encounter with Unreal Engine'
+description: My first steps with UE 
+date: 2022-03-19 15:01:35 +0300
 tags: [Unreal Engine]
-featured_image_thumbnail: /assets/images/posts/2022/unreal_engine/unreal_engine-wallpaper_thumbnail.jpg
-featured_image: /assets/images/posts/2022/unreal_engine/unreal_engine-wallpaper.jpg
+featured_image_thumbnail: images/posts/2022/unreal_engine/unreal_engine-wallpaper_thumbnail.jpg
+image: /images/posts/2022/unreal_engine/unreal_engine-wallpaper.jpg
+toc: true
 ---
-
-## My first steps with UE 
 
 <!--more-->
 
@@ -16,7 +17,7 @@ Once, at one of my jobs we had a brief period where we were allowed to experimen
 
 Few years later, a friend of mine told me about this platform named Unreal Engine; although he uses it for architectural purposes, this engine created by Epic Games is also used for AR, game creation, animation, 3D content, movies… I mean, it was used to create the landscapes for The Mandalorian (enough to get my attention? Hell yeah!).
 
-![Water in a shallow mountain valley in Kluane National Park](assets/images/posts/2022/unreal_engine/UE-mandalorian.jpeg)
+![Water in a shallow mountain valley in Kluane National Park](/images/posts/2022/unreal_engine/UE-mandalorian.jpeg)
 <small>Images credit [Unreal Engine](https://www.unrealengine.com/en-US/blog/forging-new-paths-for-filmmakers-on-the-mandalorian)</small>
 
 I then decided to follow some tutorials. As a beginner, I looked for those that teaches you the basic functionality and helps you to, step by step, create a small game (as you might know, the best way to learn is with your hands on!).
@@ -49,21 +50,21 @@ Something funny I struggled with? Handling the editor controls on my Mac! Even t
 
 Single finger press on the trackpad and drag
 
-![Rotate](assets/images/posts/2022/unreal_engine/ue-forward-backward-480.gif)
+![Rotate](/images/posts/2022/unreal_engine/ue-forward-backward-480.gif)
 
 - **Move left/right**
 
 Single finger press on the trackpad and drag to the left or right
 
 
-![Rotate](assets/images/posts/2022/unreal_engine/ue-rotate-480.gif)
+![Rotate](/images/posts/2022/unreal_engine/ue-rotate-480.gif)
 
 
 - **Move Up/Down**
 
 Single finger press on the trackpad + key press (Q for down, E for up)
 
-![Rotate](assets/images/posts/2022/unreal_engine/ue-up-down-480.gif)
+![Rotate](/images/posts/2022/unreal_engine/ue-up-down-480.gif)
 
 You can find more controls here: [UE Viewport Controls](https://docs.unrealengine.com/5.0/en-US/viewport-controls-in-unreal-engine/)
 
