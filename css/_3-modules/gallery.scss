@@ -1,0 +1,35 @@
+/* Gallery */
+.gallery-box {
+  margin: 32px 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 12px;
+
+  &-columns-1 {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  &-columns-2 {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  &-columns-3 {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  &-columns-4 {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}

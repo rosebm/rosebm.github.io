@@ -1,0 +1,123 @@
+#-------------------------------
+# Site Settings
+title: Tarne
+description: Tarne is a professional portfolio and blog Jekyll theme
+logo: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
+logo_dark: '/images/logo-dark.svg'
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'Clients'
+      url: '/clients/'
+    - title: 'Resources'
+      submenu:
+      - url: '/about/'
+        title: 'About'
+      - url: '/videos/'
+        title: 'Videos'
+      - url: '/archive/'
+        title: 'Archive'
+      - url: '/elements/'
+        title: 'Elements'
+      - url: '/latest/'
+        title: 'Latest'
+      - url: '/services/'
+        title: 'Services'
+      - url: '/faq/'
+        title: 'FAQ'
+
+# Call to action button
+cta_button:
+  enable: true
+  cta_button_link: '/contact/'
+  cta_button_text: Contact
+
+
+# Home Cover Image
+home_cover_image: /images/bg.png
+
+
+#-------------------------------
+# Author Settings
+author:
+  author_name: Marcus Dokidis
+  author_avatar: /images/01-1.jpg
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero_avatar: /images/01-1.jpg
+  hero_title: Marcus Dokidis
+  hero_description: Hey friends 👋 I’m Marcus, a product designer at <a href="#">Strodas</a>. I’ve previously worked with teams at <a href="#">Nucleus</a> and <a href="#">Driftly</a> to build SaaS platforms from the ground up. I take a strategic approach to product design — helping businesses launch faster, scale smarter, and create meaningful user experiences.
+
+
+#-------------------------------
+# Social Settings
+social:
+- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
+- {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
+- {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
+- {icon: "fa-solid fa-rss", name: "Rss", link: "/feed.xml"}
+
+# Example of adding a new link to the hero and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Projects Section Settings
+projects:
+  enable: true
+  projects_title: Recent Projects
+
+
+#-------------------------------
+# Section Blog Settings
+blog:
+  enable: true
+  blog_title: Writings
+
+
+#-------------------------------
+# Newsletter Settings
+mailchimp:
+  enable: true
+  mailchimp_image: '/images/20.jpg'
+  mailchimp_title: Stay Inspired Weekly
+  mailchimp_description: Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox.
+  mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  mailchimp_input_text: Your email address
+  mailchimp_button_text: Subscribe
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  form_id: your@email.com # Add your form_id
+  button_text: Send Message
+
+# NOTE
+# Tarne theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: true
+  disqus_identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+  disqus_title: What are your thoughts?
+  disqus_button_text: Show Comments
+
+
+#-------------------------------
+# Google Analytics
+google_analytics: # Add your GA Tracking Id
