@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
-title: Tarne
-description: Tarne is a professional portfolio and blog Jekyll theme
+title: Rosalyn
+description: "Senior Mobile Developer | Android + Flutter | Native & Cross-Platform Specialist"
 logo: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
 logo_dark: '/images/logo-dark.svg'
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
@@ -15,8 +15,8 @@ menu_settings:
       url: '/'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'Clients'
-      url: '/clients/'
+    - title: 'Blog'
+      url: '/posts/'
     - title: 'Resources'
       submenu:
       - url: '/about/'
@@ -48,26 +48,23 @@ home_cover_image: /images/bg.png
 #-------------------------------
 # Author Settings
 author:
-  author_name: Marcus Dokidis
-  author_avatar: /images/01-1.jpg
+  author_name: Rosalyn Blanco
+  author_avatar: /images/authorimage.jpg
 
 
 #-------------------------------
 # Hero Settings
 hero:
   enable: true
-  hero_avatar: /images/01-1.jpg
-  hero_title: Marcus Dokidis
-  hero_description: Hey friends 👋 I’m Marcus, a product designer at <a href="#">Strodas</a>. I’ve previously worked with teams at <a href="#">Nucleus</a> and <a href="#">Driftly</a> to build SaaS platforms from the ground up. I take a strategic approach to product design — helping businesses launch faster, scale smarter, and create meaningful user experiences.
-
+  hero_avatar: /images/authorimage.jpg
+  hero_title: Rosalyn Blanco
+  hero_description: Hey friends 👋 I’m Rosalyn, Senior Software Engineer at <a href="https://play2pay.com/">Play2Pay</a>. I’ve previously worked with teams at <a href="#">Redzone Map</a> and <a href="https://xsalesmobility.com/">XSales</a>. I focus on turning ideas into polished, high-quality apps that create meaningful experiences for users.
 
 #-------------------------------
 # Social Settings
 social:
-- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
-- {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
-- {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
-- {icon: "fa-solid fa-rss", name: "Rss", link: "/feed.xml"}
+- {icon: "fa-brands fa-github", name: "GitHub", link: "https://github.com/rosebm"}
+- {icon: "fa-brands fa-linkedin", name: "LinkedIn", link: "https://linkedin.com/in/rosalynblanco"}
 
 # Example of adding a new link to the hero and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
 # Other icons can be found at https://fontawesome.com/icons
@@ -106,7 +103,7 @@ contact:
   button_text: Send Message
 
 # NOTE
-# Tarne theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+# Do you have any project on mind, or any question/suggestion? Feel free to reach out. If you prefer, at the bottom, you can find my social links to get in touch that way..
 
 
 #-------------------------------
