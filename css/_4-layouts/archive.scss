@@ -1,6 +1,6 @@
 /* Archive Page */
 .archive-page__group {
-  margin-bottom: 68px;
+  margin-bottom: 16px;              // was 68px
 
   &:last-child {
     padding-bottom: 0;
@@ -10,13 +10,12 @@
 
   .archive-page__list {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 150px 1fr; // fixed month column so titles align across years
 
     @media (max-width: $desktop) {
-      grid-template-columns: auto;
+      grid-template-columns: 1fr;
     }
   }
-
 
   .archive-page__year,
   .archive-page__month {
@@ -28,39 +27,45 @@
   }
 
   .archive-page__year {
+    margin-bottom: 2px;            // tighter gap under the year
     font-size: 22px;
     font-weight: 500;
   }
 
   .archive-page__month {
-    margin-right: 32px;
+    margin: 0 32px 0 0;             // no extra space above/below the month
     font-size: 18px;
     font-weight: 400;
 
     @media (max-width: $desktop) {
-      margin-bottom: 16px;
+      margin-bottom: 8px;
     }
   }
 }
 
 .archive-page__collection {
-  margin-bottom: 48px;
+  margin-bottom:2px;              // was 48px
 
   &:last-child {
     margin-bottom: 0;
   }
 
   @media (max-width: $mobile) {
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
 }
 
 .archive-article {
   display: flex;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   align-items: center;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
   border-bottom: 1px solid var(--border-color);
+
+  .archive-article__head {
+    flex: 1 1 auto;                 // fill the row so dates line up
+    min-width: 0;
+  }
 
   .archive-article__title {
     margin-right: auto;
@@ -93,17 +98,15 @@
   }
 
   .archive-article__meta {
-    flex: 0 0 auto;
+    flex: 0 0 110px;                // fixed width, right-aligned dates
     margin-left: 32px;
+    text-align: right;
     line-height: 1;
 
     .archive-article__date {
       font-family: $heading-font-family;
-      color: var(--text-alt-color);
-    }
-
-    .archive-article__date {
       font-size: 14px;
+      color: var(--text-alt-color);
     }
   }
 
@@ -116,8 +119,10 @@
     }
 
     .archive-article__meta {
+      flex-basis: auto;
       margin-top: 4px;
       margin-left: 0;
+      text-align: left;
     }
   }
 }
