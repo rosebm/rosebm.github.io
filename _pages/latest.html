@@ -1,0 +1,46 @@
+---
+layout: default
+title: Articles
+description: A collection of notes, experiments, and hard-won lessons. Things I write down so I don’t forget — and that are worth sharing.
+permalink: /latest/
+image: 'images/book-alarm-clock.jpg'
+---
+
+<!-- begin latest -->
+<section class="section latest">
+  <div class="container">
+    <div class="section__inner">
+      <div class="row">
+
+        <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+
+          <div class="section__hero">
+            <div class="section__hero__inner">
+              {% if page.title %}
+              <h1 class="section__hero__title">{{ page.title }}</h1>
+              {% endif %}
+              {% if page.description %}
+              <p class="section__hero__description">{{ page.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+
+          <img src="/images/book-alarm-clock.jpg" style="border-radius: 12px; display: block; max-width: 100%; height: auto;">
+
+<p style="margin-top: 8px; margin-bottom: 24px; font-size: 0.85em; color: #666;">
+  <a href="https://www.vecteezy.com/free-photos/clock-reading">Clock Reading Stock photos by Vecteezy</a>
+</p>
+
+          <div class="row">
+            {% for post in site.posts %}
+              {% include article.html class="col col-6 col-t-12" %}
+            {% endfor %}
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end latest -->

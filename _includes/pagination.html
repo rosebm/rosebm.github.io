@@ -1,15 +1,19 @@
-{% if paginator.total_pages > 1 %}
-<nav class="pagination inner">
-  <div class="nav-links">
-    {% if paginator.previous_page %}
-    <a class="newer-posts" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span
-        class="icon-arrow-left" aria-hidden="true"></span><span class="screen-reader-text">Newer Posts</span></a>
-    {% endif %}
-    <span class="page-number"> Page {{ paginator.page }} of {{ paginator.total_pages }} </span>
-    {% if paginator.next_page %}
-    <a class="older-posts" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><span
-        class="screen-reader-text">Older Posts</span> <span class="icon-arrow-right" aria-hidden="true"></span></a>
-    {% endif %}
+{% assign postCount = site.posts | size %}
+{% assign postsCovered = site.paginate | plus:offset %}
+{% if postsCovered < postCount %}
+<!-- begin pagination -->
+<div class="pagination">
+  <div class="load-more-section">
+    <button class="load-more-posts button button--medium">Load More</button>
+    <p class="load-more-complete">You've reached the end of the list</p>
   </div>
-</nav><!-- .pagination -->
+</div>
+<!-- end pagination -->
 {% endif %}
+
+<script>
+  var base_url = "",
+    pagination_next_url = base_url + "{{ '/page2' | relative_url }}",
+    pagination_next_page_number = "{{ paginator.next_page }}",
+    pagination_available_pages_number = "{{ paginator.total_pages }}";
+</script>

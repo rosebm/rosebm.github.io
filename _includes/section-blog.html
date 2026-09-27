@@ -1,0 +1,39 @@
+{% if site.data.settings.blog.enable == true %}
+<!-- section-blog -->
+<section class="section section-blog">
+  <div class="container">
+    <div class="row">
+
+      <div class="col col-8 col-w-10 col-d-12 push-2 push-w-1 push-d-0">
+
+        <div class="section__head">
+          {% if site.data.settings.blog.blog_title %}
+          <h2 class="section__title">{{ site.data.settings.blog.blog_title }}</h2>
+          {% endif %}
+          <div class="blog__view">
+            <div class="blog__toggle">
+              <div class="icon">
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+                <div class="icon-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row grid">
+          {% if site.posts.size > 0 %}
+            {% for post in paginator.posts %}
+              {% include article.html class="article--flexible col col-6 col-t-12 grid__post" %}
+            {% endfor %}
+          {% endif %}
+        </div>
+        {% include pagination.html %}
+
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- section-blog -->
+{% endif %}

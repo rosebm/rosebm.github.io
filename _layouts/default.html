@@ -1,97 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% include head.html %}
 
-    {% if site.plugins_dir contains 'jekyll-seo-tag' %}
-        {% include head-seo.html %}
-    {% else %}
-        <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.name | escape }}{% endif %}</title>
-        <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-        <link rel="canonical" href="{{ page.url | replace:'index.html', '' | absolute_url }}">
+<body>
+  {% if site.data.settings.google_analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+
+  <!-- begin global wrap -->
+  <div class="global-wrap">
+
+    {% if site.data.settings.home_cover_image and page.url == '/' %}
+    <!-- begin home cover -->
+    <div class="home-cover">
+      <div class="home-cover__inner">
+        <img src="{{ site.data.settings.home_cover_image }}" alt="{{ site.data.settings.title }}">
+      </div>
+    </div>
+    <!-- end home cover -->
     {% endif %}
 
-    <!-- Site Favicon -->
-    <link rel="shortcut icon" href="{{ site.url }}/{{ site.baseurl }}{{ site.favicon }}" type="image/png" />
+    {% include header.html %}
 
-    <!-- Font Embed Code -->
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet" />
+    <!-- begin content -->
+    <main class="content" aria-label="Content">
+      {{ content }}
+    </main>
+    <!-- end content -->
 
-    <!-- CSS Styles -->
-    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
-    <!-- Dark theme for dark mode -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism-okaidia.css" media="(prefers-color-scheme: dark)" />
+    {% include footer-buttons.html %}
 
-</head>
+    {% include footer.html %}
+  </div>
+  <!-- end global wrap -->
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+  {% include bookmarks.html %}
 
-<body class="{{ layout }}">
-    <div id="page" class="site">
-
-        {% if page.url == "/" %}
-
-        <div class="hero-wrap">
-            {% if site.cover_image %}
-            <div class="hero-wrap-bg" style="background-image: url({{ site.baseurl }}/assets/images/{{ site.cover_image }})"></div>
-            {% endif %}
-            {% include header.html %}
-            <section class="hero outer fadeInDown delay_075s">
-                <div class="inner">
-                    {% include author.html %}
-                </div><!-- .inner -->
-            </section><!-- .hero -->
-        </div><!-- .hero-wrap -->
-
-        {% else %}
-        {% include header.html %}
-        {% endif %}
-
-        {{ content }}
-
-        {% if paginator.total_posts > site.paginate %}
-        {% if page.class == 'tag-template' %}
-        {% include tag-pagination.html %}
-        {% endif %}
-        {% endif %}
-
-        {% if site.mailchimp_url and page.class == 'tag-template' %}
-        {% include newsletter-box.html %}
-        {% endif %}
-
-        <footer id="colophon" class="site-footer outer">
-            <div class="site-footer-inside">
-                {% include social-links.html %}
-                <p class="site-info">
-                    <a href="#">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} . Horace theme by
-                    <a target="_blank" href="https://justgoodthemes.com/">JustGoodThemes</a>. <br />
-                    Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a>.
-                </p>
-                <p class="back-to-top">
-                    <a id="top-button" class="top-button" href="#page">
-                        <span class="icon-arrow-up" aria-hidden="true"></span>
-                        <span class="screen-reader-text">Back to top</span>
-                    </a>
-                </p>
-            </div><!-- .site-footer-inside -->
-        </footer><!-- .site-footer -->
-    </div><!-- .site -->
-    <div id="site-overlay" class="site-overlay"></div>
-    {% include sidebar.html %}
-    {% include analytics.html %}
-    <!-- Javascript Assets -->
-    <script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/prism.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-dart.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-swift.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-kotlin.min.js"></script>
-
+  <script src="{{ '/js/scripts.js' | relative_url }}"></script>
+  <script src="{{ '/js/common.js' | relative_url }}"></script>
+  <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById("js-search-input"),
+      resultsContainer: document.getElementById("js-results-container"),
+      json: "{{ '/search.json' | relative_url }}",
+      searchResultTemplate: '<a href="{url}" class="search-results__link"><div class="search-results-title">{title}</div><div class="search-results-description">{content}</div></a>',
+      noResultsText: '<div class="no-results">No results found...</div>'
+    });
+  </script>
 </body>
 
 </html>
