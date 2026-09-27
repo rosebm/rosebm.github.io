@@ -2,8 +2,8 @@
 # Site Settings
 title: Rosalyn
 description: "Senior Mobile Developer | Android + Flutter | Native & Cross-Platform Specialist"
-logo: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
-logo_dark: '/images/logo-dark.svg'
+logo: '/images/ros_name_logo.svg' # You can add own logo. For example '/images/logo.png'.
+logo_dark: '/images/ros_name_logo_dark.svg'
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -15,24 +15,14 @@ menu_settings:
       url: '/'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'Blog'
-      url: '/posts/'
+    - title: 'Articles'
+      url: '/latest/'
     - title: 'Resources'
       submenu:
       - url: '/about/'
         title: 'About'
-      - url: '/videos/'
-        title: 'Videos'
       - url: '/archive/'
         title: 'Archive'
-      - url: '/elements/'
-        title: 'Elements'
-      - url: '/latest/'
-        title: 'Latest'
-      - url: '/services/'
-        title: 'Services'
-      - url: '/faq/'
-        title: 'FAQ'
 
 # Call to action button
 cta_button:
@@ -87,7 +77,7 @@ blog:
 #-------------------------------
 # Newsletter Settings
 mailchimp:
-  enable: true
+  enable: false
   mailchimp_image: '/images/20.jpg'
   mailchimp_title: Stay Inspired Weekly
   mailchimp_description: Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox.
@@ -99,17 +89,17 @@ mailchimp:
 #-------------------------------
 # Contact Settings
 contact:
-  form_id: your@email.com # Add your form_id
+  form_id: mrgdbbaz # Add your form_id
   button_text: Send Message
 
 # NOTE
-# Do you have any project on mind, or any question/suggestion? Feel free to reach out. If you prefer, at the bottom, you can find my social links to get in touch that way..
+# Do you have any project on mind, or any question/suggestion? Feel free to reach out. If you prefer, at the bottom, you can find my social links to get in touch that way.
 
 
 #-------------------------------
 # Comment Section (Disqus)
 disqus:
-  enable: true
+  enable: false
   disqus_identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
   disqus_title: What are your thoughts?
   disqus_button_text: Show Comments

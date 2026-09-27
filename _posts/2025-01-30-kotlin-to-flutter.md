@@ -3,9 +3,9 @@ layout: post
 title: 'From Kotlin to Flutter: My Journey Building an iOS App in 2 Months'
 description: New tech, tight deadline—challenge accepted!.
 date: 2025-01-30 15:01:35 +0300
-tags: [Flutter, iOS, Dart]
+tags: [Flutter, iOS, Dart, Android]
 featured_image_thumbnail: assets/images/posts/2025/kotlin_to_flutter/android-iphone.png
-image: /images/posts/2025/kotlin_to_flutter/android-iphone.png
+image: /images/posts/2025/kotlin_to_flutter/android-to-ios-B-dark-glow.jpg
 toc: true
 ---
 
@@ -25,7 +25,31 @@ On the other hand, declarative programming feels like a breath of fresh air. The
 To put it in simple terms:
 
 - **Imperative programming** is like manually assembling a LEGO set piece by piece, deciding exactly how each block connects. You have total control, but it requires careful planning.
+
+{% highlight kotlin %}
+val button = Button(this).apply {
+    text = "Click me"
+    setTextColor(Color.WHITE)
+    setBackgroundColor(Color.parseColor("#4CAF50")) // green
+    setPadding(32, 16, 32, 16)
+}
+
+layout.addView(button)
+{% endhighlight %}
+
 - **Declarative programming** is like giving instructions to a 3D printer—you describe the final object, and the system figures out the best way to build it for you.
+
+{% highlight dart %}
+ElevatedButton(
+  onPressed: () {},
+  style: ElevatedButton.styleFrom(
+    backgroundColor: Color(0xFF4CAF50), // green
+    foregroundColor: Colors.white,      // text color
+    padding: EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+  ),
+  child: Text('Click me'),
+)
+{% endhighlight %}
 
 And in just 6 weeks, I not only completed the MVP but also successfully published the app to the App Store 2 weeks ahead of the deadline. It was a rewarding experience that pushed me outside my comfort zone, reinforcing that adaptability and problem-solving matter just as much as technical expertise.
 

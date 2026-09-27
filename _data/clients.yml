@@ -2,11 +2,11 @@
 # Clients Settings
 clients_title: Clients
 clients_description: Discover what clients and collaborators say about working together. Real stories of trust, creativity, and meaningful results that highlight the value of each partnership.
-clients_section_enable: true
+clients_section_enable: false
 
 # Logos
 logos:
-  enable: true
+  enable: false
   logo_image:
     - alt: "Nintendo"
       image: "/images/nintendo.svg"

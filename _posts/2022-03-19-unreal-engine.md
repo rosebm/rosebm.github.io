@@ -3,9 +3,9 @@ layout: post
 title: 'My encounter with Unreal Engine'
 description: My first steps with UE 
 date: 2022-03-19 15:01:35 +0300
-tags: [Unreal Engine]
+image: '/images/posts/2022/unreal_engine/unreal_engine-wallpaper.jpg'
 featured_image_thumbnail: images/posts/2022/unreal_engine/unreal_engine-wallpaper_thumbnail.jpg
-image: /images/posts/2022/unreal_engine/unreal_engine-wallpaper.jpg
+tags: [Unreal Engine]
 toc: true
 ---
 

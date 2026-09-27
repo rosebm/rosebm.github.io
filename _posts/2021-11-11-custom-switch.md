@@ -3,7 +3,7 @@ layout: post
 title: 'Custom Switch'
 description: Bored of using the plain pre-defined switch design? Let's see how we can change it.
 Date: 2021-11-11 15:01:35 +0300
-image: images/posts/2021/custom_switch/switch.jpg
+image: images/posts/2021/custom_switch/electrical_switches.jpg
 tags: [Android, Kotlin, Xml]
 toc: true	
 ---
@@ -185,3 +185,7 @@ It should look like this
 Now you're ready to customize it! Thanks for reading.
 
 You can find a sample here [GitHub](https://github.com/rosebm/Samples/tree/main/customswitch)
+
+<p align="left">
+<small>Switch image credit: <a href="https://electricalexpert.weebly.com/blog/archives/02-2020">Electrical Expert</a></small>
+</p>

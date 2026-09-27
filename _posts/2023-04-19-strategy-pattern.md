@@ -1,15 +1,16 @@
 ---
 layout: post
 title: 'Strategy Pattern'
-description: Simplifying Interchangeable Behaviors in Your Code.
+description: 'Simplifying Interchangeable Behaviors in Your Code.'
 date: 2023-04-19 15:01:35 +0300
 tags: [Android, Kotlin]
-featured_image_thumbnail: assets/images/posts/2023/strategy_pattern/strategy_pattern_3_roads.jpg
 image: /images/posts/2023/strategy_pattern/strategy_pattern_3_roads.jpg
+featured_image_thumbnail: assets/images/posts/2023/strategy_pattern/strategy_pattern_3_roads.jpg
 toc: true
 ---
 
 <!--more-->
+
 
 Imagine you’re driving to a destination, and you have several routes to choose from: the highway, the scenic route, or the city streets. Each route has its own way of getting you there, with different speeds, views, and potential traffic. Here, the goal is to reach your destination, and the strategy is the route you choose. Depending on the situation (like time of day or traffic), you might decide to change routes to fit your needs. This way, you can adapt your approach at any time without changing the main goal—just like the Strategy Pattern lets you change specific behaviors in your code without altering the overall structure.
 

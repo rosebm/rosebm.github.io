@@ -2,7 +2,7 @@
 # Services Settings
 services_title: Services
 services_description: My goal is to help you turn concepts into solutions that are not only visually strong but also effective in the real world.
-services_section_enable: true
+services_section_enable: false
 
 services:
   - title: User Experience Design
